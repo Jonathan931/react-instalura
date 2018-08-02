@@ -24,8 +24,7 @@ export default class Header extends Component {
             <input type="text" name="search" placeholder="Pesquisa" className="header-busca-campo" ref={ input => this.loginPesquisao = input }/>
             <input type="submit" value="Buscar" className="header-busca-submit"/>
           </form>
-
-
+          
           <nav>
             <ul className="header-nav">
               <li className="header-nav-item">
